@@ -4,19 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
-import { ParentDataComponent } from './components/parent-data/parent-data.component';
+import { ParentDataComponent } from './components/children-data/parent-data.component';
+import { DirectiveComponent } from './components/directive/directive.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    FirstComponentComponent,
-    ParentDataComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectiveComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
