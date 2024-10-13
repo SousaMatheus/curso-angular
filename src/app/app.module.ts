@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { ParentDataComponent } from './components/children-data/parent-data.component';
 import { DirectiveComponent } from './components/directive/directive.component';
+import { IfComponentComponent } from './components/if-component/if-component.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectiveComponent],
+  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectiveComponent, IfComponentComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
