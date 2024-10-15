@@ -7,9 +7,10 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ParentDataComponent } from './components/children-data/parent-data.component';
 import { DirectiveComponent } from './components/directive/directive.component';
 import { IfComponentComponent } from './components/if-component/if-component.component';
+import { EventosComponent } from './eventos/eventos.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectiveComponent, IfComponentComponent],
+  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectiveComponent, IfComponentComponent, EventosComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
