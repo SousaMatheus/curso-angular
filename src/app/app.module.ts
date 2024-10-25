@@ -11,10 +11,21 @@ import { EventosComponent } from './eventos/eventos.component';
 import { EmitterFilhoComponent } from './components/emitter-filho/emitter-filho.component';
 import { HostPaiComponent } from './components/host-pai/host-pai.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
-import { PipesComponent } from './components/pipes/pipes.component';
+import { PipeOperatorComponent } from './components/pipe-operator/pipe-operator.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectiveComponent, IfComponentComponent, EventosComponent, EmitterFilhoComponent, HostPaiComponent, ListRenderComponent, PipesComponent],
+  declarations: [
+    AppComponent,
+    FirstComponentComponent,
+    ParentDataComponent,
+    DirectiveComponent,
+    IfComponentComponent,
+    EventosComponent,
+    EmitterFilhoComponent,
+    HostPaiComponent,
+    ListRenderComponent,
+    PipeOperatorComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
