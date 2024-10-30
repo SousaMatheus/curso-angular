@@ -1,0 +1,16 @@
+<div class="class">
+  <form>
+    <input
+      type="text"
+      [(ngModel)]="name"
+      name="name"
+      placeholder="Digite o nome"
+    />
+    <br />
+    <input type="submit" value="Enviar" />
+  </form>
+  <div *ngIf="name !== ''; else MostrarMensagem">
+    <p>O nome é {{ name }}</p>
+  </div>
+  <ng-template #MostrarMensagem> <p>Aguardando...</p> </ng-template>
+</div>
